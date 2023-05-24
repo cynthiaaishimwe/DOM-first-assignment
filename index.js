@@ -25,3 +25,6 @@ document.getElementById('fruList').appendChild(li)
 // li.innerHTML = 'egggplants';
 // document.getElementById('vegList').appendChild(li)
 
+let newLi = document.createElement("li");
+newLi.innerHTML = "eggplants";
+vegList.appendChild(newLi);
